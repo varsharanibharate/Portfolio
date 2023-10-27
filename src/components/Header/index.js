@@ -1,19 +1,26 @@
 
 import {Link} from "react-router-dom"
 import './index.css'
+import Pdf from '../../data/VarsharaniBharateResume.pdf';
 
 const Header = () => {
     return(
         <div className="container">
             <ul>
                 <li>
-                    <Link>Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link>About</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <Link>Resume</Link>
+                <a href = {Pdf} target = "_blank" rel="noreferrer" >Resume</a>
+                </li>
+                <li>
+                    <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
                 </li>
                 
             </ul>

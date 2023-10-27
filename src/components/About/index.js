@@ -6,8 +6,11 @@ const About = () => {
             <div className='details-container'>
                 <hr />
                 <h3 className='about-title'>About Varsharani</h3>
-                <p className='about-description'>Problem Solver, Love to make things simple, <br /> Full Stack Developer,
-                    Passionate and <br />dedicated to work.
+                <p className='about-description'>I am Varsharani and I am currently looking for job in Frontend Development.<br /> 
+                 I have a bachelor's degree in Mechanical. People find me to be an upbeat, <br /> 
+                 self motivated team player with excellent communication skills.<br />
+                 I am dedicated person with a family of four. Problem Solver, Love to make<br />  things simple, Full Stack Developer,
+                    Passionate and dedicated to work.
                 </p>
             </div>
             <div className='image-container'>
