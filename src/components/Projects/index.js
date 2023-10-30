@@ -135,8 +135,8 @@ class Projects extends Component {
       <div className="project-container">
         <h1 className="project-title">Projects</h1>
         <p className="project-description">
-          Your skills and achievements showcase your strengths and abilities.
-          Speak about any new skills or software you learnt to perform the
+          My skills and achievements showcase my strengths and abilities.
+          Speak about any new skills or software I learnt to perform the
           project responsibilities.
         </p>
 

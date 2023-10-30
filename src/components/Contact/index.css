@@ -11,22 +11,36 @@
 
 .contact-title {
     font-family: "Roboto";
-    font-size: 82px;
+    font-size: 42px;
     
 }
+
+@media screen and (min-width: 768px) {
+    .contact-title  {
+        font-size: 82px;
+    }
+}    
 
 .button-container {
     margin: 20px;
 }
 
 .button {
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 30px;
     border-radius: 10px;
     color: black;
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 10px;
     margin-right: 10px;
     border: none;
     letter-spacing: 1.5px;
 }
+
+@media screen and (min-width: 768px) {
+    .button  {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+}  
