@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4a35ade5.css",
+    "main.js": "/portfolio/static/js/main.f5686596.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/emile-perron-xrVDYZRGdw4-unsplash.jpg": "/portfolio/static/media/emile-perron-xrVDYZRGdw4-unsplash.11cf30d17a3d13490526.jpg",
+    "static/media/VarsharaniBharateResume.pdf": "/portfolio/static/media/VarsharaniBharateResume.c07d6e70f78226047837.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.4a35ade5.css.map": "/portfolio/static/css/main.4a35ade5.css.map",
+    "main.f5686596.js.map": "/portfolio/static/js/main.f5686596.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a35ade5.css",
+    "static/js/main.f5686596.js"
+  ]
+}
