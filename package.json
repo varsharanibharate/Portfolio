@@ -1,4 +1,5 @@
 {
+  "homepage": "https://varsharanibharate.github.io/portfolio",
   
   "name": "portfolio",
   
@@ -35,7 +36,8 @@
   },
   
   "scripts": {
-  
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     
   "start": "react-scripts start",
   
