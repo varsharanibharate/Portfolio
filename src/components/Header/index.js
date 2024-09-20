@@ -1,7 +1,7 @@
 
 import {Link} from "react-router-dom"
 import './index.css'
-import Pdf from '../../data/VarsharaniBharateResume.pdf';
+import Pdf from '../../data/VarsharaniBharateCV_200924.pdf';
 
 const Header = () => {
     return(
@@ -14,7 +14,7 @@ const Header = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li>
-                <a href = {Pdf} target = "_blank" rel="noreferrer" >Resume</a>
+                <a href = {Pdf} target = "_blank" rel="noreferrer" >CV</a>
                 </li>
                 <li>
                     <Link to="/projects">Projects</Link>
