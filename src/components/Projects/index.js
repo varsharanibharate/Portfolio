@@ -19,7 +19,7 @@ const projectsList = [
     title: 'Music Page',
     description:
       'The music page enables the users to browse through the images of all-time favorite music albums.',
-    publishedLink:"vsbmusicpage.ccbp.tech",
+    publishedLink:"https://vsbmusicpage.ccbp.tech",
   },
   {
     projectId: 1,
@@ -28,7 +28,7 @@ const projectsList = [
     title: 'Tourism Website',
     description:
       'A tourism website enables the user to browse through the images of popular destinations.',
-    publishedLink: "varshtourismint.ccbp.tech",
+    publishedLink: "https://varshtourismint.ccbp.tech",
     },
   {
     projectId: 2,
@@ -37,7 +37,7 @@ const projectsList = [
     title: 'Advanced Technologies',
     description:
       'A website that gives you a basic understanding of Advanced Technologies.',
-    publishedLink: "vsbadvancetech.ccbp.tech",
+    publishedLink: "https://vsbadvancetech.ccbp.tech",
     },
      {
        projectId: 3,
@@ -45,7 +45,7 @@ const projectsList = [
        imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-s2-img.png',
        title: 'Happy Meals',
        description: 'Discover the best foods in over 1,000 restaurants.',
-       publishedLink: "vsbhappymeals.ccbp.tech",
+       publishedLink: "https://vsbhappymeals.ccbp.tech",
       },
   {
     projectId: 4,
@@ -54,7 +54,7 @@ const projectsList = [
     title: 'VR Website',
     description:
       'VR Website enables users to explore AR and VR Products and Industry happenings.',
-    publishedLink: "vsbvrwebsite.ccbp.tech",
+    publishedLink: "https://vsbvrwebsite.ccbp.tech",
     },
   {
     projectId: 5,
@@ -71,7 +71,7 @@ const projectsList = [
     title: 'Portfolio',
     description:
       'A portfolio is the best alternative for a resume to showcase your skills to the digital world.',
-    publishedLink: "vsbportfolio.ccbp.tech",
+    publishedLink: "https://vsbportfolio.ccbp.tech",
     },
  {
    projectId: 7,
@@ -80,7 +80,7 @@ const projectsList = [
    title: 'Design',
    description:
      'A website to showcase the best features and give more information about the Design tool.',
-   publishedLink: "vsbdesigntools.ccbp.tech",
+   publishedLink: "https://vsbdesigntools.ccbp.tech",
   },
   {
     projectId: 8,
@@ -89,7 +89,7 @@ const projectsList = [
     title: 'Speed Typing Test',
     description:
       'Speed Typing Test Application is capable of calculating the time to type the randomly generated quote.',
-    publishedLink: "vsbspeedtyping.ccbp.tech",
+    publishedLink: "https://vsbspeedtyping.ccbp.tech",
     },
   {
     projectId: 9,
@@ -98,7 +98,7 @@ const projectsList = [
     title: 'Random Joke Page',
     description:
       'Random Joke Page is an API-based dynamic Web Application that generates a new joke.',
-    publishedLink: "vsbrandomjoke.ccbp.tech",
+    publishedLink: "https://vsbrandomjoke.ccbp.tech",
     },
   {
     projectId: 10,
@@ -107,8 +107,18 @@ const projectsList = [
     title: 'Sizing An Image',
     description:
       'This is a dynamic web application capable of adjusting the size of an element using DOM manipulations.',
-    publishedLink: "vsbsizingimage.ccbp.tech",
+    publishedLink: "https://vsbsizingimage.ccbp.tech",
     },
+    {
+      projectId: 11,
+      category: 'DYNAMIC',
+      imageURL: 'https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png',
+      title: 'Match Game',
+      description:
+        'The Match Game App is a fun and interactive image matching game designed to test quick thinking and memory skills.',
+      publishedLink: "https://vsbmatchgame.ccbp.tech/",
+      },
+      
 ]
 
 class Projects extends Component {

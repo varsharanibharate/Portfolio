@@ -15,7 +15,9 @@ const ProjectItem = props => {
         <div className="project-item-details-container">
           <h1 className="project-item-title">{title}</h1>
           <p className="project-item-description">{description}</p>
-          <p className="project-link">{publishedLink}</p>
+          <a href={publishedLink}
+        target="_blank"
+        rel="noopener noreferrer"><p className="project-link">{publishedLink}</p></a>
         </div>
       </li>
     </>

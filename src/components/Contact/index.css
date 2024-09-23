@@ -1,46 +1,72 @@
 .contact-container {
-    background-image: url("https://blog.palo-it.com/hs-fs/hubfs/emile-perron-xrVDYZRGdw4-unsplash.png?width=940&height=529&name=emile-perron-xrVDYZRGdw4-unsplash.png");
+    background-image: url("https://img.freepik.com/premium-vector/cover-banner-working-desk-with-gadget-top-view-table-working-free-space-text_33771-1303.jpg?semt=ais_hybrid");
     background-size: cover;
-    height: 80vh;
+    background-position: center; /* Center the background */
+    height: 100vh; /* Full viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 20px; /* Add padding for smaller screens */
+    text-align: center; /* Center text */
 }
 
 .contact-title {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 42px;
-    
+    margin-bottom: 10px; /* Space below the title */
 }
 
-@media screen and (min-width: 768px) {
-    .contact-title  {
-        font-size: 82px;
-    }
-}    
+.contact-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; /* Base font size for description */
+    margin-bottom: 20px; /* Space below the description */
+}
 
+.contact-note {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px; /* Space above the note */
+    font-size: 20px;
+}
+
+.email-link {
+    color: #61dafb; /* Color for the email link */
+    text-decoration: none; /* No underline */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Container */
 .button-container {
-    margin: 20px;
+    margin: 20px 0; /* Center the button container */
 }
 
-.button {
-    width: 120px;
-    height: 30px;
-    border-radius: 10px;
-    color: black;
-    font-family: "Roboto";
-    font-size: 10px;
-    margin-right: 10px;
-    border: none;
-    letter-spacing: 1.5px;
+/* Icon Button Styles */
+.icon-button {
+    margin: 0 10px; /* Space between icons */
+    color: white; /* Icon color */
+    transition: color 0.3s; /* Transition for hover */
+}
+
+.icon-button:hover {
+    color: #61dafb; /* Change color on hover */
 }
 
 @media screen and (min-width: 768px) {
-    .button  {
+    .contact-title {
+        font-size: 82px; /* Larger font size on wider screens */
+    }
+
+    .contact-description {
+        font-size: 24px; /* Larger font size for description */
+    }
+
+    .button {
         width: 150px;
         height: 50px;
-        font-size: 18px;
+        font-size: 18px; /* Adjust font size for buttons */
     }
-}  
+}

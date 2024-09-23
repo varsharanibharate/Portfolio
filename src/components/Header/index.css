@@ -1,26 +1,58 @@
 .container {
     width: 100%;
+    background-color: #3e3e3e; /* Dark background */
+    padding: 20px 0; /* Added padding for a better look */
 }
 
+/* Navigation List */
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 11px;
-   
+    justify-content: center; /* Center the items */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    position: relative; /* For absolute positioning of hover effect */
 }
 
+/* Navigation Items */
 li {
-    color: #000000;
-    margin-right: 15px;
-    padding-right: 20px;
-    font-size: 12px;
+    margin: 0 15px; /* Consistent margin */
+    padding: 10px 15px; /* Padding for clickable area */
+    font-size: 16px; /* Base font size */
+    position: relative; /* For hover effect */
 }
 
+/* Remove underline from links */
+a {
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Hover Effect */
+li:hover a {
+    color: #61dafb; /* Change text color on hover */
+}
+
+li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #61dafb; /* Highlight color */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth animation */
+}
+
+li:hover::after {
+    width: 100%; /* Expand underline on hover */
+    left: 0; /* Align to left */
+}
+
+/* Responsive Styles */
 @media screen and (min-width: 768px) {
     li {
-        font-size: 24px;   
-        margin-right: 10px;
+        font-size: 24px; /* Larger font on wider screens */
     }
 }

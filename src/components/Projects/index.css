@@ -1,75 +1,104 @@
-  .project-container {
-    max-width: 1110px;
-    margin: auto;
-    background-color: lightgrey;
-    padding: 10px;
-  }
-  
+.project-container {
+  max-width: 1200px; /* Increased max-width for a more spacious layout */
+  margin: auto;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Increased padding for better spacing */
+}
+
+.project-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bolder font weight */
+  font-size: 32px; /* Increased font size */
+  line-height: 1.2; /* Improved line height */
+  color: #2c3e50; /* Darker color for better readability */
+  text-align: center;
+  margin: 20px 0; /* Added margin for spacing */
+}
+
+@media screen and (min-width: 992px) {
   .project-title {
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 56px;
-    color: #3e4c59;
-    text-align: center;
-    margin-top: 12px;
-    margin-bottom: 0;
+      font-size: 48px; /* Responsive font size */
+      margin-top: 40px; /* More space at the top */
   }
-  
-  @media screen and (min-width: 992px) {
-    .project-title {
-      font-size: 48px;
-      margin-top: 48px;
-      margin-bottom: 24px;
-    }
-  }
-  
-  .project-description {
-    max-width: 500px;
-    font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #616e7c;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  
-  @media screen and (min-width: 992px) {
-    .description {
-      max-width: 730px;
-      font-size: 18px;
-      line-height: 28px;
-    }
-  }
-  
-  .tabs-container {
-    max-width: 300px;
-    margin: auto;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  @media screen and (min-width: 992px) {
-    .tabs-container {
-      max-width: 455px;
-    }
-  }
-  
-  .project-list-container {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 12px;
-    margin-bottom: 50px;
-  }
-  
-  @media screen and (min-width: 992px) {
-    .project-list-container {
-      margin-bottom: 150px;
-    }
-  }
+}
+
+.project-description {
+  max-width: 600px; /* Increased max-width for better readability */
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; /* Adjusted font size */
+  line-height: 1.6; /* Improved line height */
+  text-align: center;
+  color: #34495e; /* Softer color for the description */
+  margin: 0 auto 40px; /* Centered with margin */
+}
+
+.tabs-container {
+  max-width: 400px; /* Adjusted max-width */
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; /* Space out tabs evenly */
+  padding: 0;
+  margin-bottom: 20px; /* Added space below tabs */
+}
+
+.tab-item {
+  cursor: pointer;
+  padding: 10px 20px; /* Increased padding for clickable area */
+  border: 2px solid transparent; /* Initial border for active tab effect */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+.tab-item:hover {
+  background-color: #61dafb; /* Highlight on hover */
+  color: white; /* White text on hover */
+}
+
+.tab-item.active {
+  border-color: #61dafb; /* Border color for active tab */
+  color: #61dafb; /* Active tab text color */
+  background-color: #ffffff; /* Active tab background */
+}
+
+.project-list-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Added spacing */
+}
+
+.project-item {
+  margin: 15px; /* Space between project items */
+  background: white; /* White background for project items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Clipping for rounded corners */
+  transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.project-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.project-item img {
+  width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.project-item h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px; /* Space around title */
+}
+
+.project-item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0 10px 10px; /* Margin for description */
+  color: #555; /* Softer color for description */
+}
